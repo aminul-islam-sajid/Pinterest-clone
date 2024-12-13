@@ -39,7 +39,9 @@ export default function Home() {
                   )
                 })
               }
-            </div>) : ("")
+            </div>) : <h3 className="min-h-[750px] justify-center items-center flex text-red-500 font-semibold ">
+            Not found this is your search!
+          </h3>
 
         }
       </div>
