@@ -24,7 +24,7 @@ export default function Home() {
     <>
       <div className="container mx-auto p-4">
         {
-          (!gallery || gallery.length <= 0) ? (<div className="flex justify-center items-center min-h-[750pxs]">
+          (!gallery || gallery.length <= 0) ? (<div className="flex justify-center items-center min-h-[750px]">
             <ClipLoader color="#ef4444" size={120} />
           </div>
           ) : gallery.length > 0 ? (
